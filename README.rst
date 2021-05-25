@@ -13,6 +13,13 @@ Todo application built with Django
 
 :License: MIT
 
+Setup
+
+--------
+
+Please follow setup_.
+
+.._settings : docs/installation.rst
 
 Settings
 --------
