@@ -225,12 +225,3 @@ One final touch: should you ever need to merge *.envs/.production/* in a single 
    $ python merge_production_dotenvs_in_dotenv.py
 
 The .env file will then be created, with all your production envs residing beside each other.
-
-
-
-
-
-
-
-
-
