@@ -75,7 +75,7 @@ First things first.
    
    To help setting up your environment variables, you have a few options:
 
-    - create an *.env* file in the root of your project and define all the variables you need in it. Then you just need to have *DJANGO_READ_DOT_ENV_FILE=True* in your machine and all the variables will be read.
+    - create an *.env* file at the root of your project and define all the variables you need in it. Then you just need to have *DJANGO_READ_DOT_ENV_FILE=True* in your machine and all the variables will be read.
     - Use a local environment manager like `direnv <https://direnv.net/>`_
 
 7.Apply migrations:
@@ -104,7 +104,7 @@ Getting Up and Running Locally with Docker
 
 
 
-The steps below will get you up and running with a local development environment. All of these commands assume you are in the root of your generated project.
+The steps below will get you up and running with a local development environment. All of these commands assume you are at the root of your generated project.
 
 **Prerequisites**
 
@@ -120,7 +120,7 @@ This can take a while, especially the first time you run this particular command
 
    $ docker-compose -f local.yml build
 
-Generally, if you want to emulate production environment use *production.yml* instead. And this is true for any other actions you might need to perform: whenever a switch is required, just do it!
+Generally, if you want to emulate the production environment use *production.yml* instead. And this is true for any other actions you might need to perform: whenever a switch is required, just do it!
 
 
 **Run the Stack**
