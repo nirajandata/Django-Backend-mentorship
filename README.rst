@@ -17,16 +17,17 @@ Setup
 
 --------
 
-Please follow setup_.
+Please follow `setup </docs/installation.rst>`_
+.
 
 .. _settings : docs/installation.rst
 
 Settings
 --------
 
-Moved to settings_.
+Moved to `settings <http://cookiecutter-django.readthedocs.io/en/latest/settings.html>`_
+.
 
-.. _settings: http://cookiecutter-django.readthedocs.io/en/latest/settings.html
 
 Basic Commands
 --------------
