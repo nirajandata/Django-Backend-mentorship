@@ -19,7 +19,7 @@ Setup
 
 Please follow setup_.
 
-.._settings : docs/installation.rst
+.. _settings : docs/installation.rst
 
 Settings
 --------
