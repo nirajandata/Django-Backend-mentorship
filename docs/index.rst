@@ -13,6 +13,7 @@ Welcome to todo's documentation!
    howto
    pycharm/configuration
    users
+   installation
 
 
 
