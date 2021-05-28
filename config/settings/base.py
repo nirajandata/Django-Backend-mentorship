@@ -71,6 +71,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
+    "admin_honeypot",
 ]
 
 LOCAL_APPS = [
@@ -223,7 +224,7 @@ EMAIL_TIMEOUT = 5
 # ADMIN
 # ------------------------------------------------------------------------------
 # Django Admin URL.
-ADMIN_URL = "admin/"
+ADMIN_URL = "shaiho/"
 # https://docs.djangoproject.com/en/dev/ref/settings/#admins
 ADMINS = [("""Aju Tamang""", "ajutamang10@outlook.com")]
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers
