@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 from todo.users.forms import UserChangeForm, UserCreationForm
 
-is_superuser=True
+
 
 User = get_user_model()
 
@@ -43,5 +43,3 @@ class UserAdmin(auth_admin.UserAdmin,ExportCsvMixin):
     search_fields = ["name"]
     actions = ["export_as_csv"]
     list_per_page = 60
-    date_hierarchy = 'added_on'
-    readonly_fields = ["added_on"]
