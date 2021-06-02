@@ -18,7 +18,8 @@ if READ_DOT_ENV_FILE:
 # GENERAL
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#debug
-DEBUG = env.bool("DJANGO_DEBUG", False)
+# DEBUG = env.bool("DJANGO_DEBUG", False)
+DEBUG = True
 # Local time zone. Choices are
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # though not all of them may be available with every OS.
@@ -63,6 +64,12 @@ DJANGO_APPS = [
     "django.contrib.admin",
     "django.forms",
 ]
+
+# import sys
+# import subprocess
+# subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'django-admin-honeypot'])
+# import admin_honeypot
+
 THIRD_PARTY_APPS = [
     "crispy_forms",
     "allauth",
@@ -71,7 +78,6 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
- #   "admin_honeypot",
 ]
 
 LOCAL_APPS = [
@@ -224,7 +230,7 @@ EMAIL_TIMEOUT = 5
 # ADMIN
 # ------------------------------------------------------------------------------
 # Django Admin URL.
-ADMIN_URL = "shaiho/"
+ADMIN_URL = "admin"
 # https://docs.djangoproject.com/en/dev/ref/settings/#admins
 ADMINS = [("""Aju Tamang""", "ajutamang10@outlook.com")]
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers
