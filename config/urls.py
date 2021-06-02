@@ -15,7 +15,7 @@ urlpatterns = [
     # Django Admin, use {% url 'admin:index' %}
     path(settings.ADMIN_URL, admin.site.urls),
     #Honeypot fake admin url
-    path("admin/", include("admin_honeypot.urls", namespace="admin_honeypot")),
+#    path("admin/", include("admin_honeypot.urls", namespace="admin_honeypot")),
     # User management
     path("users/", include("todo.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
