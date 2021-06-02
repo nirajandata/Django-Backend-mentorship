@@ -13,7 +13,8 @@ User = get_user_model()
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent /"todo"
 main_dir=str(ROOT_DIR)+'/main/'
 sys.path.append(main_dir)
-from helpers import ExportCsvMixin 
+
+from .helpers import ExportCsvMixin 
 
 @admin.register(User)
 class UserAdmin(auth_admin.UserAdmin,ExportCsvMixin):
