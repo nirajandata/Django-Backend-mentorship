@@ -10,11 +10,7 @@ from django.urls import reverse
 from todo.users.forms import UserChangeForm
 from todo.users.models import User
 from todo.users.tests.factories import UserFactory
-from todo.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-    user_detail_view,
-)
+from todo.users.views import UserRedirectView, UserUpdateView, user_detail_view
 
 pytestmark = pytest.mark.django_db
 

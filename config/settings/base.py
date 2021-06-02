@@ -18,7 +18,7 @@ if READ_DOT_ENV_FILE:
 # GENERAL
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#debug
-#DEBUG = env.bool("DJANGO_DEBUG", False)
+# DEBUG = env.bool("DJANGO_DEBUG", False)
 DEBUG = True
 # Local time zone. Choices are
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -65,10 +65,10 @@ DJANGO_APPS = [
     "django.forms",
 ]
 
-#import sys
-#import subprocess
-#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'django-admin-honeypot'])
-#import admin_honeypot
+# import sys
+# import subprocess
+# subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'django-admin-honeypot'])
+# import admin_honeypot
 
 THIRD_PARTY_APPS = [
     "crispy_forms",
@@ -78,7 +78,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
-#    "admin_honeypot",
+    #    "admin_honeypot",
 ]
 
 LOCAL_APPS = [
