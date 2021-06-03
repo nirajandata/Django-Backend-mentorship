@@ -78,7 +78,6 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
-    #    "admin_honeypot",
 ]
 
 LOCAL_APPS = [
