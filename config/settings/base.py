@@ -61,14 +61,11 @@ DJANGO_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # "django.contrib.humanize", # Handy template tags
+    "jazzmin",
     "django.contrib.admin",
     "django.forms",
 ]
 
-# import sys
-# import subprocess
-# subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'django-admin-honeypot'])
-# import admin_honeypot
 
 THIRD_PARTY_APPS = [
     "crispy_forms",
@@ -78,7 +75,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
-    #    "admin_honeypot",
+    "admin_honeypot",
 ]
 
 LOCAL_APPS = [
