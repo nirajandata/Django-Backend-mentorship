@@ -1,4 +1,4 @@
-Contributing
+Contributions
 ======================================================================
 
 Lists Of contributors
