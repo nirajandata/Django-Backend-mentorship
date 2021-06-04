@@ -14,8 +14,8 @@ class ExportCsvMixin:
         writer = csv.writer(response)
 
         writer.writerow(field_names)
-        #  for obj in queryset:
-        #       row = writer.writerow([getattr(obj, field) for field in field_names])
+        # for obj in queryset:
+        #   row = writer.writerow([getattr(obj, field) for field in field_names])
 
         return response
 

@@ -9,10 +9,11 @@ Welcome to todo's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   
    howto
    pycharm/configuration
    users
+   contributing
    installation
 
 
