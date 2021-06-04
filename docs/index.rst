@@ -13,8 +13,9 @@ Welcome to todo's documentation!
    howto
    pycharm/configuration
    users
-   contributing
+   contributors
    installation
+   CONTRIBUTING
 
 
 
