@@ -18,9 +18,8 @@ Setup
 --------
 
 Please follow `setup </docs/installation.rst>`_
-.
 
-.. _settings : docs/installation.rst
+
 
 Settings
 --------
@@ -77,6 +76,11 @@ Moved to `Live reloading and SASS compilation`_.
 
 
 
+
+Contribute
+----------
+
+Contributions are always welcome! Please read the `contribution guidelines </docs/CONTRIBUTING.rst>`_ first.
 
 
 Deployment
