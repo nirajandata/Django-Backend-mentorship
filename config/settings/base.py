@@ -5,7 +5,7 @@ from pathlib import Path
 
 import environ
 
-from . jazzmin_config import jazzmin_setting
+from .jazzmin_config import jazzmin_setting
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # todo/
