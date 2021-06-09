@@ -2,8 +2,10 @@
 Base settings to build other settings files upon.
 """
 from pathlib import Path
-from . import jazzmin_config
+
 import environ
+
+from . import jazzmin_config
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # todo/
