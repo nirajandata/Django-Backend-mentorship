@@ -7,6 +7,7 @@ import environ
 
 from .jazzmin_config import jazzmin_setting
 
+JAZZMIN_SETTINGS = jazzmin_setting().JAZZMIN_SETTINGS
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # todo/
 APPS_DIR = ROOT_DIR / "todo"
