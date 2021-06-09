@@ -1,4 +1,5 @@
-JAZZMIN_SETTINGS = {
+def jazzmin_setting():
+ JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
     "site_title": "TODO Admin",
     # Title on the brand, and login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
@@ -72,4 +73,4 @@ JAZZMIN_SETTINGS = {
     },
     # Add a language dropdown into the admin
     "language_chooser": True,
-}
+ }
