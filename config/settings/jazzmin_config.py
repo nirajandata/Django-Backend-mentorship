@@ -46,17 +46,7 @@ JAZZMIN_SETTINGS = {
         {"app": "main"},
     ],
 
-    #############
-    # User Menu #
-    #############
 
-    
-
-    #############
-    # Side Menu #
-    #############
-
-    # Whether to display the side menu
     "show_sidebar": True,
 
     # Whether to aut expand the menu
