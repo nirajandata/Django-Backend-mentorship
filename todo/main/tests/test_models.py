@@ -1,5 +1,7 @@
 from django.test import TestCase
+
 from todo.main.models import YourTask
+
 
 class ModelsTestCase(TestCase):
     def test_tasks_title(self):
